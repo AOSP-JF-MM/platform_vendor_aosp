@@ -28,6 +28,6 @@ ifeq (jdc_onyx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/jdc_onyx.mk
 endif
 
-ifeq (jdc_onyx,$(TARGET_PRODUCT))
+ifeq (jdc_z2_plus,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/jdc_z2_plus.mk
 endif
